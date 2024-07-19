@@ -1,0 +1,66 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish-black';
+  src: url('../fonts/Mulish-Black.woff2') format('woff2'),
+       url('../fonts/Mulish-Black.woff') format('woff'),
+       url('../fonts/Mulish-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish-bold';
+  src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+       url('../fonts/Mulish-Bold.woff') format('woff'),
+       url('../fonts/Mulish-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish-regular';
+  src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
+       url('../fonts/Mulish-Regular.woff') format('woff'),
+       url('../fonts/Mulish-Regular.ttf2') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish-SemiBold';
+  src: url('../fonts/Mulish-SemiBold.woff2') format('woff2'),
+       url('../fonts/Mulish-SemiBold.woff') format('woff'),
+       url('../fonts/Mulish-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish-Medium';
+  src: url('../fonts/Mulish-Medium.woff2') format('woff2'),
+       url('../fonts/Mulish-Medium.woff') format('woff'),
+       url('../fonts/Mulish-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+  /* @font-face{
+    font-family:'Font Awesome';
+    font-style:normal;
+    font-weight:900;
+    src:url('.../fonts/fontawesome/webfonts/fa-solid-900.eot');
+    src:url('.../fonts/fontawesome/webfonts/fa-solid-900.eot?#iefix') 
+    format("embedded-opentype"),url('.../fonts/fontawesome/webfonts/fa-solid-900.woff2') 
+    format("woff2"),url('.../fonts/fontawesome/webfonts/fa-solid-900.woff') 
+    format("woff"),url('.../fonts/fontawesome/webfonts/fa-solid-900.ttf') 
+    format("truetype"),url('.../fonts/fontawesome/webfonts/fa-solid-900.svg#fontawesome') 
+    format("svg")
+  } */
+  body {
+    font-family: 'Mulish-regular', sans-serif;
+}

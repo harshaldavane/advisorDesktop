@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.pendingSummaryFontSizes{
+ 
+  
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-transform: capitalize;
+}
+
+.pendingSummaryBgColorCommon{
+    background-color: #f5faff;
+}
+
+.pendingSumaaryBgBorderRadiusCommon{
+border-radius: 20px;
+}
+
+.pendingSumaaryHeading{
+    font-family:'Mulish-Bold';
+    font-size: 20px;
+    line-height: 24px;
+     
+    text-transform: uppercase;
+    color: #063e6f;
+}
+
+p.View.All {
+    color: #9a2529;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+p.applicatioHeading {
+    font-size: 18px;
+    color: #161616;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+p.statusValue{
+    font-size: 22px;
+    font-weight: 700;
+    color: #161616;
+    line-height: normal;
+    margin:0;
+}
+
+.row-wrapper{
+    display: flex;
+    gap: 03%;
+}
+ 
+.container.pendingSummaryWrapper {
+    overflow: hidden; /* Prevent scrolling on mobile */
+}
+
+.row-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+
+.applicationStatusBg {
+    gap: 66px;
+}
+
+ 
+
+/* Add vertical line between columns */
+ 
+.border-right{
+    border-right: 1px solid #847174;
+    padding: 0px 4% 0px 0px;
+}
+ .quick-section{
+    margin: 0;
+    row-gap: 22px;
+ }
+.quicky-links-boxes{
+    border-radius: 20px;
+    background-color: #F4F6EF;
+  
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 14px 16px 14px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ .boxmain-text h5{
+    font-size:16px;
+    font-family: 'mulish-bold';
+    margin-bottom: 0px;
+ }
+.boxmain-icon{
+    width: 60px;
+    height: 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    border-radius: 100px;
+}
+.boxmain-next-circle{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    
+    border-radius: 100px;
+}
+.boxmain-text{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boxmain-next {
+    display: flex;
+    align-items: center;
+}
+.box-bussiness-overview{
+    flex-direction: column;
+    gap: 0px;
+}
+.img-sec-choice {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sec-choice img {
+    width: 100%; /* Full width */
+    position: absolute; /* Absolute positioning to allow movement */
+    top: 0; /* Start at the top */
+    border-radius: 20px;
+    
+}
+.breadcrumb {
+    display: flex;
+    list-style: none;
+    
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    margin: 0 0.5rem;
+    color: #6c757d;
+  }
+  
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #444444;
+    font-size:14px;
+  }
+  
+  .breadcrumb-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-item.active {
+    color: #EA7617;
+    pointer-events: none;
+    cursor: default;
+  }
+  .icon-text{
+    font-size: 22px;
+    font-family: 'mulish-bold';
+  }
+
+  .tabs {
+    display: flex;
+    cursor: pointer;
+    border:1px solid #E3E3E3;
+    padding: 6px;
+    border-radius: 28px;
+    width: fit-content;
+ 
+}
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #cccccc00;
+    border-bottom: none;
+    font-family: 'mulish-bold';
+    color: #6B6BB8;
+    
+}
+.tab.active {
+    background-color: #6B6BB8;
+    color: #fff;
+    border-radius: 28px;
+    padding: 8px 20px 8px 20px;
+    font-family: 'mulish-bold';
+}
+ 
+.content div {
+    display: none;
+}
+.content div.active {
+    display: block;
+}
+.search-bar{
+    display: flex;
+    margin:auto;
+    gap: 12px;
+}
+::placeholder{
+    color: #CCCCCC;
+}
+.input-group-text {
+    background: none;
+    border-right: none;
+    padding-right: 0px;
+}
+
+input.form-control {
+    border-left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+ 
+    border: 1px solid #E9EEF3;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    
+    border-bottom: 1px solid #E9EEF3;
+    font-family: 'Mulish-regular';
+ 
+}
+th {
+    font-family: 'Mulish-SemiBold';
+    background-color: #f2f2f2;
+}
+ .btn-outline-danger{
+    color: #9A2529;
+    background-color: #9a252942;
+    border: none;
+ }

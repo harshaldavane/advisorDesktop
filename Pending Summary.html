@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./custom-files/style.css">
+    <link rel="stylesheet" href="./custom-files/responsive.css">
+    <link rel="stylesheet" href="./custom-files/fonts.css">
+    <title>Pending Summury</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-0 ps-0">
+                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Pending Summary</li>
+            </ol>
+        </nav>
+
+
+        <div class="icon-text">
+            <i class="fas fa-home"></i>
+            <span>Pending Summary</span>
+        </div>
+
+        <div class="container pendingSummaryWrapper pt-4">
+            <div class="pendingSummaryTitle pb-2">
+                <h3 class="pendingSumaaryHeading">Application overview</h3>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="applicationStatusWrapper">
+                        <div
+                            class="applicationStatusBg pendingSummaryBgColorCommon pendingSumaaryBgBorderRadiusCommon   pendingSummaryFontSizes p-3">
+                            <div class="incompleteStatus">
+                                <p>Incomplete Application</p>
+                                <p class="statusValue">223</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="applicationStatusWrapper">
+                        <div
+                            class="applicationStatusBg pendingSummaryBgColorCommon pendingSumaaryBgBorderRadiusCommon  pendingSummaryFontSizes p-3">
+                            <div class="incompleteStatus">
+                                <p>Incomplete Application</p>
+                                <p class="statusValue">223</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5   ">
+                    <div class="applicationStatusWrapper">
+                        <div
+                            class="applicationStatusBg pendingSummaryBgColorCommon pendingSumaaryBgBorderRadiusCommon d-flex justify-content-between pendingSummaryFontSizes p-3">
+                            <div class="incompleteStatus">
+                                <p>Incomplete Application</p>
+                                <p class="statusValue">223</p>
+                            </div>
+                            <div class="atsPendingWrapper">
+                                <p>ATS Pending</p>
+                                <p class="statusValue">223</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row p-0 mt-3">
+                <div class="col-6">
+                    <div class="tabs  mb-3">
+                        <div class="tab active" onclick="showContent(0)">Applications </div>
+                        <div class="tab" onclick="showContent(1)">Issuance </div>
+                        <div class="tab" onclick="showContent(2)">Renewal </div>
+                    </div>
+                </div>
+                <div class="col-6 search-bar">
+                    <div class="input-group   ">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Enter application No. or Customer name"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <i class="fas fa-filter"></i> Filter
+                    </button>
+                </div>
+                <div class="content">
+                    <div class="content-item active">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Application No. </th>
+                                    <th>Date Received</th>
+                                    <th>Customer Name</th>
+                                    <th>Policy Type </th>
+                                    <th>Product </th>
+                                    <th>Premium </th>
+                                    <th>Application Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>OS45235121</td>
+                                    <td>1-Jan-2024</td>
+                                    <td>Aniket kasbekar</td>
+                                    <td>Group</td>
+                                    <td>GP1</td>
+                                    <td>₹ 70,000</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Incomplete</button></td>
+                                    <td>Icon</td>
+                                </tr>
+                                <tr>
+                                    <td>OS45235121</td>
+                                    <td>1-Jan-2024</td>
+                                    <td>Aniket kasbekar</td>
+                                    <td>Group</td>
+                                    <td>GP1</td>
+                                    <td>₹ 70,000</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Incomplete</button></td>
+                                    <td>Icon</td>
+                                </tr>
+                                <tr>
+                                    <td>OS45235121</td>
+                                    <td>1-Jan-2024</td>
+                                    <td>Aniket kasbekar</td>
+                                    <td>Group</td>
+                                    <td>GP1</td>
+                                    <td>₹ 70,000</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Incomplete</button></td>
+                                    <td>Icon</td>
+                                </tr>
+                                <tr>
+                                    <td>OS45235121</td>
+                                    <td>1-Jan-2024</td>
+                                    <td>Aniket kasbekar</td>
+                                    <td>Group</td>
+                                    <td>GP1</td>
+                                    <td>₹ 70,000</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Incomplete</button></td>
+                                    <td>Icon</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="content-item">Issuance</div>
+                    <div class="content-item">Renewal</div>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-3">
+
+                 </div>
+                 <div class="col-6">
+
+                 </div>
+                 <div class="col-3">
+
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showContent(index) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.content-item');
+
+            tabs.forEach((tab, i) => {
+                if (i === index) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+
+            contents.forEach((content, i) => {
+                if (i === index) {
+                    content.classList.add('active');
+                } else {
+                    content.classList.remove('active');
+                }
+            });
+        }
+    </script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
