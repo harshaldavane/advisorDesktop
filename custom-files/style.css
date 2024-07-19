@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Mulish';
 }
 
 .pendingSummaryFontSizes{
@@ -260,3 +261,182 @@ th {
     background-color: #9a252942;
     border: none;
  }
+
+ /* Harshal */
+ #advisorDesktop ul li a {
+    line-height: 130%;
+    color: #444;
+    font-weight: 500;
+    height: 100%;
+    padding: 17px 10px;
+    }
+    .cool-link {
+display: inline-block;
+color: #000;
+text-decoration: none;
+}
+
+.cool-link::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #9a2529;
+transition: width .3s;  
+}
+
+#advisorDesktop ul li a:hover{
+color: #9a2529;
+/* font-weight: 700; */
+/* font-weight: bold; */
+}
+
+
+#advisorDesktop ul li a::after {
+content: attr(data-text);
+content: attr(data-text) / "";
+height: 0;
+visibility: hidden;
+overflow: hidden;
+user-select: none;
+pointer-events: none;
+font-weight: 700;
+}
+
+.cool-link:hover::after {
+width: 100%;
+transition: width .9s;  
+}
+
+.cool-link a:hover {
+font-weight: 700;    
+}
+.navbar-expand-lg{
+padding: 0;
+
+}
+
+.advisorLogoHeader image  {
+height: 37.5px;
+}
+.advisorLogoHeader {
+padding: 0;
+}
+.profileDropdownWrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7px;
+}
+#navbarSupportedContent{
+align-items: center;
+justify-content: center;
+gap:10px;
+}
+.advisorDesktopProfileCircle{
+margin: 10px;
+padding: 15px;
+background-color: antiquewhite;
+border-radius: 50%;
+margin: 10px;
+cursor: pointer;
+}
+.nameOnCircle{
+margin: 5px;
+}
+
+.advisorMyprofilePoppup{
+display: none;
+width: 220px;
+/* padding: 5px; */
+/* list-style: none; */
+position: absolute;
+top: 100%;
+background-color: white;
+border-radius: 4px;
+box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+}
+.advisorMyprofilePoppup p{
+margin: 0;
+padding: 10px 10px;
+text-align: left;
+background-color: #F5F5F5;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+cursor: pointer;
+}
+.advisorMyprofilePoppup ul li{
+padding: 10px 0;
+font-weight: 400;
+padding: 10px;
+}
+
+.advisorMyprofilePoppup ul {
+margin: 0 auto;
+}
+
+.advisorMyprofilePoppup ul li:nth-child(1), .advisorMyprofilePoppup ul li:nth-child(2){
+border-bottom: 1px solid #444;
+}
+
+.advisorMyprofilePoppup ul li:nth-child(3), .advisorMyprofilePoppup ul li:nth-child(4){
+padding: 10px 10px;
+}
+
+.advisorMyprofilePoppup ul li:nth-child(4){
+color: #9a2529;
+}
+.advisorulWrapper{
+list-style: none;
+width: max-content;
+padding: 0;
+margin: 0;
+}
+.advisorNotificationHeader{
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+color: #063E6F;
+}
+
+
+/* Notification css */
+.notificationAlret{
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.06px;
+text-align: left;
+color: #161616;
+}
+.notificationAlretnotice{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 700;
+text-align: left;
+line-height: 25px;
+border-bottom: 1px solid rgba(132, 113, 116, .2);
+opacity: 0.2px;
+
+}
+.advisorNotificationLIWrapper{
+list-style: none;
+margin: 0;  
+padding: 0 ;
+box-sizing: border-box;
+}
+.notificationdateTimeWrapper{
+display: flex;
+justify-content: space-between;
+}
+.notificationdatetime{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+/* Notification css */
+
+/* Harshal end */

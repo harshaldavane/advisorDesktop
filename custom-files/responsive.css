@@ -100,3 +100,23 @@
         color: #CCCCCC;
     }
 }
+
+/* Harshal start */
+
+@media (max-width:1050px){
+    .advisornotificationmobile{
+    position: absolute;
+    top: 0;
+    right: 70px;
+    }
+    .profileDropdownWrapper{
+    display: none;
+    }
+    
+    .profileDropdownWrapper{
+    display: none;
+    }
+    
+    }
+
+    /* Harshal end */
