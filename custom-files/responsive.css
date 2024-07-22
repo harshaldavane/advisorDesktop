@@ -1,5 +1,8 @@
 /* Styles for mobile devices */
 @media (max-width: 992px) {
+    .parent-div-boxmain-icon{
+        width: 100%;
+    }
     .row-wrapper {
         flex-direction: row;
         /* Ensure horizontal scrolling */
@@ -39,6 +42,12 @@
     }
 
 }
+
+
+
+
+
+
 
 /* Styles for desktops */
 @media (min-width: 992px) {
