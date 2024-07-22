@@ -114,8 +114,8 @@
 @media (max-width:1050px){
     .advisornotificationmobile{
     position: absolute;
-    top: 0;
-    right: 70px;
+    top: 12px;
+    right: 100px;
     }
     .profileDropdownWrapper{
     display: none;
@@ -124,7 +124,12 @@
     .profileDropdownWrapper{
     display: none;
     }
-    
+    .advisorDesktopNavMyProfile{
+        display:block;
+    }
+    .advisorNavContainer{
+        padding: 15px calc(var(--bs-gutter-x));
+    }
     }
 
     /* Harshal end */
