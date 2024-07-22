@@ -89,7 +89,7 @@ p.statusValue{
 .quicky-links-boxes{
     border-radius: 20px;
     background-color: #F4F6EF;
-  
+  cursor: pointer;
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -140,6 +140,7 @@ p.statusValue{
     position: relative;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .img-sec-choice img {
