@@ -33,9 +33,15 @@ border-radius: 20px;
 
 p.View.All {
     color: #9a2529;
-    font-weight: 700;
+ font-family: 'mulish-bold';
     text-transform: capitalize;
     text-align: right;
+}
+.view-all-arrow {
+    margin-bottom: 3%;
+}
+p.View.All:hover {
+cursor:pointer;
 }
 
 p.applicatioHeading {
@@ -75,7 +81,15 @@ p.statusValue{
 }
 
  
-
+ 
+.section {
+    flex: 0 0 auto;
+ 
+    min-width: 25%; /* Ensures the sections don't get too small */
+}
+ 
+ 
+ 
 /* Add vertical line between columns */
  
 .border-right{
@@ -117,6 +131,9 @@ p.statusValue{
     background: rgb(255, 255, 255);
     text-align: center;
     border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .boxmain-text{
     display: flex;

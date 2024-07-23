@@ -168,3 +168,57 @@
     }
 
     /* Harshal end */
+
+
+/** Internet Explorer */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .row-wrapper {
+ 
+        column-gap: normal !important;
+    }
+    }
+    
+    /** Microsoft Edge */
+    @supports (-ms-ime-align: auto) {
+        .row-wrapper {
+ 
+            column-gap: normal !important;
+        }
+    }
+    
+    /** Mozilla Firefox */
+    @-moz-document url-prefix() {
+        .row-wrapper {
+ 
+            column-gap: normal !important;
+        }
+    }
+    
+    /** Safari */
+    @media not all and (min-resolution: 0.001dpcm) {
+   
+        .row-wrapper {
+ 
+            column-gap: normal !important;
+        }
+    }
+    
+    /** Chrominum */
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+        .row-wrapper {
+ 
+            column-gap: normal !important;
+        }
+        .border-right {
+            border-right: 1px solid #847174;
+            padding: 0px 3% 0px 0px;
+        }
+    }
+    /* edge browser working */
+   
+@supports (-ms-ime-align: auto) {
+    .row-wrapper {
+ 
+        column-gap: normal !important;
+    }
+}
