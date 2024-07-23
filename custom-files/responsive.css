@@ -6,6 +6,7 @@
     .row-wrapper {
         flex-direction: row;
         /* Ensure horizontal scrolling */
+        scrollbar-width: none;
     }
 
     .boxmain-text {
@@ -207,7 +208,7 @@
     @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
         .row-wrapper {
  
-            column-gap: normal !important;
+            column-gap: normal;
         }
         .border-right {
             border-right: 1px solid #847174;

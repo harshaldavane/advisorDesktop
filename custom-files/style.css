@@ -286,10 +286,7 @@ th {
     color: #444;
     font-weight: 500;
     height: 100%;
-    padding: 20px 10px;
-    }
-    .advisorDesktopNavMyProfile{
-        display:none;
+    padding: 17px 10px;
     }
     .cool-link {
 display: inline-block;
@@ -355,33 +352,20 @@ justify-content: center;
 gap:10px;
 }
 .advisorDesktopProfileCircle{
-    padding: 8px;
-    background-color: #FFF2ED;
-    border-radius: 50%;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-    text-align: center;
-    color: #9A2529;
-    font-family:'Mulish-Semibold';
+margin: 10px;
+padding: 15px;
+background-color: antiquewhite;
+border-radius: 50%;
+margin: 10px;
+cursor: pointer;
 }
-.advisorNotificationHeader{
-font-family: Mulish;
-font-size: 20px;
-font-weight: 800;
-line-height: 24px;
-text-align: left;
-color: #063E6F;
-}
-
 .nameOnCircle{
 margin: 5px;
 }
 
 .advisorMyprofilePoppup{
 display: none;
-width: 230px;
+width: 220px;
 /* padding: 5px; */
 /* list-style: none; */
 position: absolute;
@@ -411,7 +395,7 @@ margin: 0 auto;
 }
 
 .advisorMyprofilePoppup ul li:nth-child(1), .advisorMyprofilePoppup ul li:nth-child(2){
-    border-bottom: 1px solid rgba(132, 113, 116, .2);
+border-bottom: 1px solid #444;
 }
 
 .advisorMyprofilePoppup ul li:nth-child(3), .advisorMyprofilePoppup ul li:nth-child(4){
@@ -426,9 +410,6 @@ list-style: none;
 width: max-content;
 padding: 0;
 margin: 0;
-}
-.offcanvas{
-    max-width: 80%;
 }
 .advisorNotificationHeader{
 font-family: Mulish;
