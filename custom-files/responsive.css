@@ -8,7 +8,9 @@
         /* Ensure horizontal scrolling */
         scrollbar-width: none;
     }
-
+    .custom-wrapper-pendng-sum{
+        width: min-content;
+     }
     .boxmain-text {
 
         width: 66px;

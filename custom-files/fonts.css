@@ -20,7 +20,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: 'Mulish-regular';
+  font-family: 'Mulish';
   src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
        url('../fonts/Mulish-Regular.woff') format('woff'),
        url('../fonts/Mulish-Regular.ttf2') format('truetype');

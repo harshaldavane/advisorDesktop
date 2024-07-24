@@ -112,7 +112,7 @@ p.statusValue{
     justify-content: space-between;
     align-items: center;
 }
- 
+
  .boxmain-text h5{
     font-size:16px;
     font-family: 'mulish-bold';
@@ -203,9 +203,11 @@ p.statusValue{
   }
   .icon-text{
     font-size: 22px;
-    font-family: 'mulish-bold';
+    font-weight: 800;
   }
-
+  .icon-text img{
+    margin-bottom: .3%;
+  }
   .tabs {
     display: flex;
     cursor: pointer;
@@ -254,33 +256,89 @@ p.statusValue{
 input.form-control {
     border-left: 0;
 }
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid #E9EEF3;
+    border-radius: 20px;
+    overflow: hidden;
+  }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    border-radius: 10px;
+    border-radius: 20px;
  
-    border: 1px solid #E9EEF3;
+
 }
 th, td {
-    padding: 12px;
+    padding: 10px 16px;
+    text-align: center;
+    text-wrap: pretty;
+    border-bottom: 1px solid #E9EEF3;
+    font-family: 'Mulish';
     text-align: left;
     
-    border-bottom: 1px solid #E9EEF3;
-    font-family: 'Mulish-regular';
+ 
  
 }
+    /* Ensure the corners of the table have rounded borders */
+    table tr:first-child th:first-child {
+        border-top-left-radius: 20px;
+      }
+  
+      table tr:first-child th:last-child {
+        border-top-right-radius: 20px;
+      }
+  
+      table tr:last-child td:first-child {
+        border-bottom-left-radius: 20px;
+      }
+  
+      table tr:last-child td:last-child {
+        border-bottom-right-radius: 20px;
+      } 
+.name-field {
+    max-width: 30ch; /* Fixed to 30 characters */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 th {
     font-family: 'Mulish-SemiBold';
     background-color: #f2f2f2;
 }
  .btn-outline-danger{
     color: #9A2529;
-    background-color: #9a252942;
+    background-color: #9a252942;    
     border: none;
+    border-radius: 100px;
  }
-
- /* Harshal */
+ .btn-outline-danger:hover, .btn-outline-danger:active, .btn-outline-danger:focus {
+    color: #9A2529 !important;
+    background-color: #9a252942  !important;    
+    border: none  !important;
+    border-radius: 100px  !important;
+ }
+.rupee-color{
+    color:#EA7617;
+}
+.ATS-Pending{
+    color: #EA7617;
+    background: rgb(253,185,46);
+    background: linear-gradient(90deg, rgba(253,185,46,0.10407913165266103) 0%, rgba(253,185,46,0.0984768907563025) 100%);
+    border: none;
+    border-radius: 100px;
+ }
+ .ATS-Pending:hover, .ATS-Pending:active, .ATS-Pending:focus {
+    color: #EA7617 !important;
+    background: rgb(253,185,46);
+    background: linear-gradient(90deg, rgba(253,185,46,0.10407913165266103) 0%, rgba(253,185,46,0.0984768907563025) 100%);
+    border: none  !important;
+    border-radius: 100px  !important;
+ }
+ 
+    /* Harshal */
  #advisorDesktop ul li a {
     line-height: 130%;
     color: #444;
