@@ -15,9 +15,9 @@
     <!-- Harshal Start -->
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center" id="advisorDesktop">
-        <div class="container" style="position: relative;">
+        <div class="container advisorNavContainer" style="position: relative;">
             <a class="navbar-brand advisorLogoHeader" href="#"><img
-                    src="./img/icici-prudential-life-insurance-desktopLogo.svg" alt=""></a>
+                    src="./img/icici-prudential-life-insurance-desktopLogo.svg" class="advisorLogoHeaderImg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight">
                 <span class="navbar-toggler-icon"></span>
@@ -25,15 +25,13 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    <h5 id="offcanvasRightLabel" class="advisorNotificationHeader">Menu</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body ">
                     <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 justify-content-center">
-                        <li class="nav-item cool-link">
-                            <a class="nav-link active" aria-current="page" href="#">My Profile</a>
-                        </li>
+                   
                         <li class="nav-item cool-link">
                             <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
                         </li>
@@ -50,13 +48,13 @@
                             <a class="nav-link " href="#" aria-disabled="true">Opportunity Matrix</a>
                         </li>
                         <li class="nav-item cool-link">
-                            <a class="nav-link" href="#" aria-disabled="true">Opportunity Matrix</a>
+                            <a class="nav-link " href="#" aria-disabled="true">Client Diary</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- user & Notification  -->
-            <div class=" navbar-collapse" id="navbarSupportedContent" style="width: min-content;">
+            <div class=" navbar-collapse advisor_notifyProfile" id="navbarSupportedContent" style="width: min-content;">
 
                 <button class="advisornotificationmobile btn btn-primary" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#demo" style=" background: none;border: none;outline: none;">
