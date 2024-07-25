@@ -93,8 +93,8 @@ p.statusValue{
 /* Add vertical line between columns */
  
 .border-right{
-    border-right: 1px solid #847174;
-    padding: 0px 4% 0px 0px;
+ 
+    padding: 0px 2% 0px 0px;
 }
  .quick-section{
     margin: 0;
@@ -261,7 +261,7 @@ input.form-control {
     overflow-x: auto;
     border: 1px solid #E9EEF3;
     border-radius: 20px;
-    overflow: hidden;
+    overflow: auto;
   }
 
 table {
@@ -278,10 +278,39 @@ th, td {
     border-bottom: 1px solid #E9EEF3;
     font-family: 'Mulish';
     text-align: left;
-    
- 
+}
+
+
+
+.section {
+    position: relative;
  
 }
+
+ 
+.border-right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background-color: #e0e0e0; /* Line color */
+}
+.border-right::after .no-border::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: none;
+     
+}
+
+
+
+
+
     /* Ensure the corners of the table have rounded borders */
     table tr:first-child th:first-child {
         border-top-left-radius: 20px;

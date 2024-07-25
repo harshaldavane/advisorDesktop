@@ -1,5 +1,13 @@
 /* Styles for mobile devices */
 @media (max-width: 992px) {
+    .border-right {
+        
+        padding: 0px 3% 0px 0%;
+    }
+    .border-right-padding {
+       
+        padding: 0px 0% 0px 3%;
+    }
     .parent-div-boxmain-icon{
         width: 100%;
     }
@@ -212,9 +220,10 @@
  
             column-gap: normal;
         }
-        .border-right {
-            border-right: 1px solid #847174;
-            padding: 0px 3% 0px 0px;
+   
+        .border-right-padding {
+           
+            padding: 0px 2% 0px 0%;
         }
     }
     /* edge browser working */
@@ -223,5 +232,44 @@
     .row-wrapper {
  
         column-gap: normal !important;
+    }
+}
+@media (max-width: 768px) {
+    
+
+    .section {
+        border-right: none;
+        padding: 0;
+    }
+
+   
+    
+}
+
+@media (max-width: 1199px) {
+    .no-padding-start{
+     
+        padding: 0px 2% 0px 2%;
+    }
+    .border-right {
+       
+        padding: 0px 2% 0px 2%;
+    }
+    .no-border {
+       
+        padding: 0px 2% 0px 2%;
+    }
+}
+@media (min-width: 1400px) {
+    .no-padding-start{
+        padding-left: 0px !important;
+        padding: 0px 4%;
+    }
+    .border-right {
+        padding: 0px 4%;
+    }
+
+    .no-border {
+        padding: 0px 4%;
     }
 }
